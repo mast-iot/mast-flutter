@@ -20,7 +20,7 @@ class _DeviceTabState extends State<DeviceTab> {
 
   @override
   Widget build(BuildContext context) {
-    if (_list == null)
+    if (_list == null || _list.isEmpty)
       return Container(
         child: Center(
           child: Text(
