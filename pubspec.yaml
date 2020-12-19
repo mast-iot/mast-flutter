@@ -37,6 +37,7 @@ dependencies:
   permission_handler: 5.0.0+hotfix.8
   shared_preferences: 0.5.8
   fluttertoast: 7.0.2
+  xlive_switch: 1.0.5
 
 dev_dependencies:
   flutter_test:

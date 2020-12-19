@@ -18,4 +18,10 @@ class ParamRepo {
     }
     return list;
   }
+
+  Future<int> update(dynamic data) async {
+    String url = host + "/param/update";
+    Response response = await request.post(getOption, url, data);
+    return response.data;
+  }
 }
